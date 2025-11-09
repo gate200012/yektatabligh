@@ -1,0 +1,11 @@
+# اگر مخزن هنوز init نشده
+git init
+git add .
+git commit -m "Initial commit"
+
+# ایجاد شاخه‌ی اصلی
+git branch -M main
+
+# اتصال به GitHub
+git remote add origin <URL-of-your-repo>
+git push -u origin main
