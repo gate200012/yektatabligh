@@ -45,3 +45,13 @@ cd frontend
 npm install
 npm run dev
 ```
+
+## گرفتن خروجی (Export)
+
+برای تهیه آرشیو ZIP از وضعیت فعلی مخزن:
+
+```bash
+./scripts/export_project.sh
+```
+
+فایل خروجی به طور پیش‌فرض در `exports/project-export.zip` ساخته می‌شود (می‌توانید مسیر دلخواه را به عنوان آرگومان اول بدهید).

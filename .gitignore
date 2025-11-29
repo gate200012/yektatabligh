@@ -16,5 +16,8 @@ build/
 .env
 .env.local
 
+# Export artifacts
+exports/
+
 # OS
 .DS_Store
